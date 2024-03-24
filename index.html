@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Card Odds Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+    <img src="images\pokemon.jpeg"
+</div>
+
+    <div class="container">
+        <h1>Pokémon Card Odds Calculator</h1>
+
+        <label for="totalCards">Total Cards:</label>
+        <input type="number" id="totalCards" value="260">
+
+        <label for="desiredCards">Desired Cards:</label>
+        <input type="number" id="desiredCards" value="15">
+
+        <button onclick="calculateOdds()">Calculate Odds</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
